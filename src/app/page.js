@@ -155,7 +155,7 @@ export default function Home() {
               Con más de 60 años de experiencia, CrediQ te ofrece un completo
               abanico de soluciones financieras adaptadas a las necesidades de
               nuestros clientes.  
-              <span className="text-[#0E5097] font-semibold"><a href="https://crediq.com/cr/">ir a CrediQ</a></span>
+              <span className="text-[#0E5097] font-semibold"><Link href="https://crediq.com/cr/">ir a CrediQ</Link></span>
             </p>
           </div>
 
