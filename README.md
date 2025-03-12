@@ -5,7 +5,7 @@
 Desarrollada Por Abraham Gutierrez
 link del sitio: https://landing-pages-grupo-q.vercel.app/
 
-https://www.grupoq.com/images/general/logoGQ.webp
+
 
 
 
