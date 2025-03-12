@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import bannercr from "../Imagenes/CRBanner2.png";
 import bannercrmovil from "../Imagenes/CRBanner-Movil.png";
