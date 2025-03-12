@@ -14,6 +14,7 @@ import logoq from "../Imagenes/logoq.webp";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { IoIosAppstore } from "react-icons/io";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
         />
       </div>
 
-      <a
+      <Link
         href="/"
         className="w-full h-16 gap-3 flex items-center justify-center bg-[#0E5097] hover:bg-[#1473b9] cursor-pointer"
       >
@@ -39,7 +40,7 @@ export default function Home() {
         <h1 className="text-xl font-semibold min-md:text-3xl">
           Solicitar prueba de manejo
         </h1>
-      </a>
+      </Link>
 
       <div className="w-full mt-9 mb-9 px-6 min-md:px-6 flex flex-col items-center justify-center">
         <div className="flex items-center justify-center flex-col">
@@ -61,12 +62,12 @@ export default function Home() {
               />
 
               <div className="mt-7">
-                <a
+                <Link
                   href="/"
                   className="w-1/2 text-2xl font-semibold px-6 py-3 bg-white rounded-2xl border-2 text-[#0E5097] border-[#0E5097] hover:bg-[#0E5097] hover:text-white"
                 >
                   Visita
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -80,12 +81,12 @@ export default function Home() {
               />
 
               <div className="mt-7">
-                <a
+                <Link
                   href="/"
                   className="w-1/2 text-2xl font-semibold px-6 py-3 bg-white rounded-2xl border-2 text-[#0E5097] border-[#0E5097] hover:bg-[#0E5097] hover:text-white"
                 >
                   Visita
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -99,12 +100,11 @@ export default function Home() {
               />
 
               <div className="mt-7">
-                <a
-                  href="/"
+                <Link href="/"
                   className="w-1/2 text-2xl font-semibold px-6 py-3 bg-white rounded-2xl border-2 text-[#0E5097] border-[#0E5097] hover:bg-[#0E5097] hover:text-white"
                 >
                   Visita
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -118,12 +118,12 @@ export default function Home() {
               />
 
               <div className="mt-7">
-                <a
+                <Link
                   href="/"
                   className="w-1/2 text-2xl font-semibold px-6 py-3 bg-white rounded-2xl border-2 text-[#0E5097] border-[#0E5097] hover:bg-[#0E5097] hover:text-white"
                 >
                   Visita
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -250,17 +250,17 @@ export default function Home() {
             </h3>
 
             <div className="w-full flex items-center justify-center gap-12 mt-9">
-              <a href="https://www.facebook.com/MiGrupoQ/?locale=es_LA">
+              <Link href="https://www.facebook.com/MiGrupoQ/?locale=es_LA">
                 <FaFacebook className="w-11 h-11 text-white hover:text-blue-700" />
-              </a>
+              </Link>
 
-              <a href="https://play.google.com/store/apps/details?id=com.migrupoq.app&pli=1">
+              <Link href="https://play.google.com/store/apps/details?id=com.migrupoq.app&pli=1">
                 <IoLogoGooglePlaystore className="w-11 h-11 text-white hover:text-emerald-500" />
-              </a>
+              </Link>
 
-              <a href="https://apps.apple.com/us/app/mi-grupo-q/id972874159">
+              <Link href="https://apps.apple.com/us/app/mi-grupo-q/id972874159">
                 <IoIosAppstore className="w-12 h-12 text-white hover:text-blue-400" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
